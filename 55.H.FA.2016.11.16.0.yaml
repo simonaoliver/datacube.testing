@@ -1,0 +1,63 @@
+cloudCoverage: 0.0005
+dataCoverage: 0.40619999999999995
+extent:
+  center_dt: '2016-11-16T00:02:16.461Z'
+  coord:
+    ll: {lat: -35.23808753540635, lon: 148.09904081237144}
+    lr: {lat: -35.221122830638976, lon: 149.30514540705187}
+    ul: {lat: -36.22789729788205, lon: 148.112726861892}
+    ur: {lat: -36.21030694600497, lon: 149.33382636268863}
+  from_dt: '2016-11-16T00:02:16.461Z'
+  to_dt: '2016-11-16T00:02:16.461Z'
+format: {name: JPEG2000}
+grid_spatial:
+  projection:
+    geo_ref_points:
+      ll: {x: 600000.0, y: 6100000.0}
+      lr: {x: 709800.0, y: 6100000.0}
+      ul: {x: 600000.0, y: 5990200.0}
+      ur: {x: 709800.0, y: 5990200.0}
+    spatial_reference: EPSG:32755
+    valid_data:
+      coordinates:
+      - - [601679.968588741, 6099999.0]
+        - [709799.0, 6099999.0]
+        - [709799.0, 6041825.337448528]
+        - [691481.381528396, 6046620.083619284]
+        - [691410.96981561, 6046363.840807398]
+        - [666640.162698426, 6052514.25172873]
+        - [666686.044653588, 6052685.77490567]
+        - [666339.68398045, 6052770.526154376]
+        - [666341.86555055, 6052810.570650866]
+        - [643722.784526673, 6058398.03595226]
+        - [643679.890717323, 6058243.201932346]
+        - [618070.335726606, 6064025.326310692]
+        - [618121.350840555, 6064211.039722864]
+        - [605126.608833622, 6067174.824841784]
+        - [600001.0, 6068359.92592063]
+        - [600001.0, 6093797.860558438]
+        - [601679.968588741, 6099999.0]
+      type: Polygon
+id: da542cb3-1a00-57b2-911d-f773f987ce8d
+image:
+  bands:
+    '01': {layer: 1, path: 'http://sentinel-s2-l1c.s3.amazonaws.com/tiles/55/H/FA/2016/11/16/0/B01.jp2'}
+    '02': {layer: 1, path: 'http://sentinel-s2-l1c.s3.amazonaws.com/tiles/55/H/FA/2016/11/16/0/B02.jp2'}
+    '03': {layer: 1, path: 'http://sentinel-s2-l1c.s3.amazonaws.com/tiles/55/H/FA/2016/11/16/0/B03.jp2'}
+    '04': {layer: 1, path: 'http://sentinel-s2-l1c.s3.amazonaws.com/tiles/55/H/FA/2016/11/16/0/B04.jp2'}
+    '05': {layer: 1, path: 'http://sentinel-s2-l1c.s3.amazonaws.com/tiles/55/H/FA/2016/11/16/0/B05.jp2'}
+    '06': {layer: 1, path: 'http://sentinel-s2-l1c.s3.amazonaws.com/tiles/55/H/FA/2016/11/16/0/B06.jp2'}
+    '07': {layer: 1, path: 'http://sentinel-s2-l1c.s3.amazonaws.com/tiles/55/H/FA/2016/11/16/0/B07.jp2'}
+    08: {layer: 1, path: 'http://sentinel-s2-l1c.s3.amazonaws.com/tiles/55/H/FA/2016/11/16/0/B08.jp2'}
+    09: {layer: 1, path: 'http://sentinel-s2-l1c.s3.amazonaws.com/tiles/55/H/FA/2016/11/16/0/B09.jp2'}
+    '10': {layer: 1, path: 'http://sentinel-s2-l1c.s3.amazonaws.com/tiles/55/H/FA/2016/11/16/0/B10.jp2'}
+    '11': {layer: 1, path: 'http://sentinel-s2-l1c.s3.amazonaws.com/tiles/55/H/FA/2016/11/16/0/B11.jp2'}
+    '12': {layer: 1, path: 'http://sentinel-s2-l1c.s3.amazonaws.com/tiles/55/H/FA/2016/11/16/0/B12.jp2'}
+    8A: {layer: 1, path: 'http://sentinel-s2-l1c.s3.amazonaws.com/tiles/55/H/FA/2016/11/16/0/B8A.jp2'}
+instrument: {name: MSI}
+label: S2A_OPER_MSI_L1C_DS_SGS__20161116T012340_S20161116T000216_N02.04
+lineage:
+  source_datasets: {}
+platform: {code: SENTINEL_2A}
+processing_level: L1C
+product_type: S2MSI1C
